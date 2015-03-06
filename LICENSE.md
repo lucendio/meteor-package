@@ -1,15 +1,21 @@
-boilerplate for a meteor project
-================================
+The MIT License (MIT)
 
-... simple as that. This structure is considered as a starting point for smaller as well as bigger
-meteor projects. Basically you will get a folder- and file structure as well as some pre-installed
-packages
+Copyright (c) 2015 [Gregor Jahn](mailto:license+dev@lucendio.com)
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-
-#### Contribution
-
-Please be aware that this given structure is foremost for the authors point of view sufficiently.
-But for any kind of advise or recommendation in terms of reasonable changes, please go ahead and
-create an issue or pull request.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
