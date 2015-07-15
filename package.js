@@ -15,21 +15,24 @@ Package.onUse( function( api ){
     api.versionsFrom('1.0');
 
 
+    //Npm.depends({});
+
+
     api.use([
         'underscore'
-    ], ['server', 'client']); //shared
+    ], ['server', 'client']); // shared
 
 
-    api.use([
+    api.use([   // not necessary needed
         'http',
         'tracker',
         'templating'
-    ], 'client');
+    ], [ 'client' ]);
 
 
     api.use([
 
-    ], 'server');
+    ], [ 'server' ]);
 
 
 
@@ -40,38 +43,37 @@ Package.onUse( function( api ){
 
     api.export([
 
-    ], 'client');
+    ], [ 'client' ]);
 
 
     api.export([
 
-    ], 'server');
+    ], [ 'server' ]);
 
 
 
     api.imply([], ['server', 'client']);
 
 
-    api.imply([], 'client');
+    api.imply([], [ 'client' ]);
 
 
-    api.imply([], 'server');
+    api.imply([], [ 'server' ]);
 
 
 
     api.addFiles([
-        'shared/lib/TODO',
-        'shared/lib/polyfills/TODO',
-        'shared/lib/vendors/TODO',
-        'shared/collections/TODO',
-        'shared/routes/TODO',
-        'shared/main.js'
+        'lib/polyfills/TODO',
+        'lib/vendors/TODO',
+        'lib/collections/TODO',
+        'lib/routes/TODO',
+        'lib/main.js'
     ], ['server', 'client']);
 
 
     api.addFiles([
 
-    ], 'client');
+    ], [ 'client' ]);
 
 
     api.addFiles([
@@ -84,7 +86,7 @@ Package.onUse( function( api ){
         'server/remote-methods/TODO',
         'server/routes/TODO',
         'server/main.js'
-    ], 'server');
+    ], [ 'server' ]);
 
 
     /**
@@ -92,7 +94,7 @@ Package.onUse( function( api ){
      */
     api.addFiles([
         'private/TODO'
-    ], ['server'], {isAsset: true});
+    ], [ 'server' ], {isAsset: true});
 
 });
 
